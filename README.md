@@ -16,5 +16,5 @@ You will also see any lint errors in the console.
 # Screenshots
 
 <div align="center">
-    <img src="/screenshots/screen1.png" width="400px"</img> 
+    <img src="/screenshots/screen1.png" width="600px"</img> 
 </div>
