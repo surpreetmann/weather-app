@@ -1,0 +1,38 @@
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: yellow;}
+}
+
+.WeatherDisplay {
+  border-radius: 1px;
+  border-color: orange; 
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1rem;
+  width: 14rem;
+  text-align: center;
+  position: relative;
+  background-color: lightgrey;
+  font-family: "Courier New", Courier, monospace;
+  animation: example 5s linear 1s infinite alternate;
+}
+
+.WeatherDisplay-icon {
+  margin: 0 0 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.WeatherDisplay-Details{
+  border-radius: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+.WeatherDisplay-degrees {
+  font-size: 4rem;
+  margin: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.topContainer{
+  display: flex; 
+  justify-content: space-evenly;
+  align-content: space-around;
+  font-family: "Courier New", Courier, monospace; 
+}

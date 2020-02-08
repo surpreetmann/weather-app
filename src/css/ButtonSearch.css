@@ -1,0 +1,41 @@
+.ButtonSearch {
+  text-align: center;
+  margin: 3rem 0 2rem;
+  border-radius: 0px;
+  border: 0px;
+
+}
+
+.ButtonSearch-input[type=text] {
+  width: 40rem;
+  -webkit-transition: width 0.4s ease-in-out; 
+  transition: width 0.4s ease-in-out;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.ButtonSearch-input[type=text]:focus{
+  width: 100%;
+}
+
+.SearchBar .message {
+  width: 20rem;
+  margin: 0 auto 2rem;
+  animation: fadeInDown 1s;
+}
+
+@keyframes example {
+  from {background-color: lightblue;}
+  to {background-color: white;}
+}
+
+.HeaderSearch {
+  animation: example 5s linear 1s infinite alternate;
+}
+
+@media screen and (max-width: 600px) {
+  .ButtonSearch-input {
+    width: 20rem;
+   
+    }
+  }
