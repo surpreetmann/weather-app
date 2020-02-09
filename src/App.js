@@ -4,7 +4,7 @@ import './css/App.css';
 import ButtonSearch from './components/ButtonSearch';
 import WeatherDisplay from './components/WeatherDisplay';
 
-const API_KEY = "99245f7225258e7c4334adae8e685e53";
+const API_KEY = "<<your_api_key>>";
 
 class App extends Component {
     constructor(props) {
